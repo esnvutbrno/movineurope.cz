@@ -2,145 +2,225 @@
 <html lang="cs">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mov'in Europe 2021 BRNO</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <style> #chartdiv {
-      width: 100%;
-      height: 300px;
-      z-index: -1;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mov'in Europe 2021 BRNO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+      * {
+        scroll-padding-top: 120px;
+      }
+    </style>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDZW1947LJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDZW1947LJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-YDZW1947LJ');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-YDZW1947LJ');
+    </script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md d-flex bg-primary navbar-dark sticky-top">
-    <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar6" style="" aria-expanded="true">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbar6" style=""> <a class="navbar-brand" href="#">
-          <img src="imgs/logos/movin.png" alt="Mov'in Europe" width="130">
-          <img src="imgs/logos/ESNvut.png" alt="Mov'in Europe" width="130" class="d-md-none">
+<nav class="navbar navbar-expand-md d-flex bg-primary navbar-dark sticky-top">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar6" style="" aria-expanded="true">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar6" style=""><a class="navbar-brand" href="#">
+            <img src="imgs/logos/movin.png" alt="Mov'in Europe" width="130">
+            <img src="imgs/logos/ESNvut.png" alt="Mov'in Europe" width="130" class="d-md-none">
         </a>
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item px-2"> <a class="nav-link text-white" href="#" id="aboutbutton">O festivalu</a> </li>
-          <li class="nav-item px-2"> <a class="nav-link text-white" href="#" id="programbutton">Program</a> </li>
-          <li class="nav-item px-2"> <a class="nav-link text-white" href="#" id="partnerbutton">Partneři</a> </li>
-          <li class="nav-item  px-2"> <a class="nav-link text-white" href="https://fb.me/e/184lhJbfn" target="_blank">FB Událost</a> </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item"> <a class="navbar-brand" href="#">
-              <img src="imgs/logos/ESNvut.png" alt="ESN VUT Brno" width="150" class="d-none d-lg-block">
-            </a> </li>
-        </ul>
-      </div>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-2"><a class="nav-link text-white scroll" href="#" data-target="aftermovie">Aftermovie</a>
+                </li>
+                <li class="nav-item px-2"><a class="nav-link text-white scroll" href="#" data-target="about">O
+                    festivalu</a></li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white scroll" href="#" data-target="program">Program</a></li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white scroll" href="#" data-target="partners">Partneři</a></li>
+                <li class="nav-item  px-2">
+                    <a class="nav-link text-white" href="https://fb.me/e/184lhJbfn" target="_blank">FB Událost</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="navbar-brand" href="#">
+                    <img src="imgs/logos/ESNvut.png" alt="ESN VUT Brno" width="150" class="d-none d-lg-block">
+                </a></li>
+            </ul>
+        </div>
     </div>
-  </nav>
-  <div class="py-5 text-center" style="background-image: url(imgs/Images/bg.png);">
+</nav>
+<div class="py-5 text-center" style="background-image: url(imgs/Images/bg.png);">
     <div class="container py-1">
-      <div class="row">
-        <div class="col-md-12 text-white  text-uppercase">
-          <h1 class="text-uppercase display-2 pb-0">Mov'in Europe&nbsp;</h1>
-          <h2 style="font-family: kelson" contenteditable="false">Studuj a pracuj v zahraničí</h2><br>
-          <h2 class="display-4 pt-5" style="font-family: kelsonBold;">20.10.2021</h2>
-          <h2 class="mb-5 text-uppercase" style="font-family: kelson">FAKULTA PODNIKATELSKÁ VUT</h2>
+        <div class="row">
+            <div class="col-md-12 text-white  text-uppercase">
+                <h1 class="text-uppercase display-2 pb-0">Mov'in Europe&nbsp;</h1>
+                <h2 style="font-family: kelson" contenteditable="false">Studuj a pracuj v zahraničí</h2><br>
 
-          <a class="mb-5 btn btn-danger btn-lg text-uppercase" style="font-family: kelson; font-size: 2em; padding-top: 0.5em;" href="https://soutez.movineurope.cz/?utm_source=website&utm_medium=button">Soutěžní pexeso</a>
-        </div>
-      </div>
-    </div>
-  </div>
+                <h2 class="display-4 pt-5" style="font-family: kelsonBold;">20.10.2021</h2>
+                <!--          <h2 class="mb-5 text-uppercase" style="font-family: kelson">FAKULTA PODNIKATELSKÁ VUT</h2>-->
 
-  <div class="py-5 text-center bg-light" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="display-3 mb-4 text-uppercase pt-5">ABOUT</h2>
+                <a class="mb-5 btn btn-danger btn-lg text-uppercase" style="font-family: kelson; font-size: 2em; padding-top: 0.5em;" href="https://soutez.movineurope.cz/?utm_source=website&utm_medium=button">Soutěžní
+                    pexeso</a>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="py-5 bg-light">
+</div>
+
+<div class="pt-2 text-center bg-light" id="aftermovie">
     <div class="container">
-      <div class="row">
-        <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
-          <h3>Studijní programy</h3>
-          <p class="mb-3 lead">Během celého dne se můžete těšit na prezentace o různých studijních programech jako je například <b class="font-weight: bold">Erasmus+, Freemover, CEEPUS a další.</b></p>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="display-3 text-uppercase pt-5">Aftermovie</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/StfEszxYTf4" title="Mov'in Europe 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6"> <img class="img-fluid d-block" src="imgs/Images/Images/46492999_1813969292059791_1700230312417558528_o.jpg" alt="Studijní programy"> </div>
-      </div>
     </div>
-  </div>
-  <div class="py-5 bg-light">
+</div>
+<div class="py-3 bg-light" id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-2 order-lg-1 order-md-1 order-sm-2"> <img class="img-fluid d-block" src="imgs/Images/Images/46444439_1813968778726509_6548275974646005760_o.jpg" alt="Zahraniční studenti"> </div>
-        <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6 order-1 order-xs-2 order-md-2 order-sm-1" >
-          <h3>Zahraniční studenti</h3>
-          <p class="mb-3 lead">Ve vestibulu Fakulty podnikalské můžeš navšívit stánky zahraničních studentů studujících na VUT a zjistit tak více o jejich zemi, kultuře či škole. Pokud se ti podaří obejít všechny, můžeš získat speciální cenu!</p>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="display-3 text-uppercase pt-5">O festivalu</h2>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
+                <h3>Studijní programy</h3>
+                <p class="mb-3 lead">Během celého dne se můžete těšit na prezentace o různých studijních programech jako
+                    je například <b class="font-weight: bold">Erasmus+, Freemover, CEEPUS a další.</b></p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid d-block" src="imgs/2021/IMG05033.jpg" alt="Studijní programy">
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="py-5 bg-light">
+</div>
+<div class="py-3 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
-          <h3>Lokální studenti</h3>
-          <h4 contenteditable="true">Se zkušenostmi se zahraničním studiem</h4>
-          <p class="mb-3 lead">V rámci programu budou prezentovat také členové ESN,
-          kteří již mají zkušenosti se studijem v zahraničiní a můžeš se od nich tedy dovědět více. Prezentovány budou zkušenosti z Dánska, Řecka, Portugalska, Mongolska, Norska nebo Korei.</p>
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 order-md-1 order-sm-2">
+                <img class="img-fluid d-block" src="imgs/2021/IMG05038.jpg" alt="Zahraniční studenti">
+            </div>
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6 order-1 order-xs-2 order-md-2 order-sm-1">
+                <h3>Zahraniční studenti</h3>
+                <p class="mb-3 lead">Ve vestibulu Fakulty podnikalské můžeš navšívit stánky zahraničních studentů
+                    studujících na VUT a zjistit tak více o jejich zemi, kultuře či škole. Pokud se ti podaří obejít
+                    všechny, můžeš získat speciální cenu!</p>
+            </div>
         </div>
-        <div class="col-lg-6"> <img class="img-fluid d-block" src="imgs/Images/Images/46451080_1813966275393426_1261794742262300672_o.jpg" alt="Lokální studenti"> </div>
-      </div>
     </div>
-  </div>
-  <div class="py-5 bg-light" >
+</div>
+<div class="py-3 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-2 order-lg-1 order-md-1 order-sm-2"> <img class="img-fluid d-block" src="imgs/Images/Images/46493659_1813969202059800_1621061708531367936_o.jpg" alt="Partneři"> </div>
-        <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6 order-1 order-xs-2 order-md-2 order-sm-1">
-          <h3>Partneři</h3>
-          <p class="mb-3 lead">Během dne budou mít ve vestibulu Fakulty podnikatelské stánky také naši partneři, u kterých se můžete dozvědět více o jejich pracovních příležitostech a stážích. Mimo jiné budou také probíhat prezentace těchto parnerů. Můžete se těšit například na Kyndryl, JC Correct či Tutuki.</p>
+        <div class="row">
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
+                <h3>Lokální studenti</h3>
+                <h4 contenteditable="true">Se zkušenostmi se zahraničním studiem</h4>
+                <p class="mb-3 lead">V rámci programu budou prezentovat také členové ESN,
+                    kteří již mají zkušenosti se studijem v zahraničiní a můžeš se od nich tedy dovědět více.
+                    Prezentovány budou zkušenosti z Dánska, Řecka, Portugalska, Mongolska, Norska nebo Korei.</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid d-block" src="imgs/2021/IMG_5725.jpg" alt="Lokální studenti">
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="py-5 bg-light">
+</div>
+<div class="py-3 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
-          <h3>Chillout zóna a doprovodný program</h3>
-          <p class="mb-3 lead">V naší chillout zóně si budete moci odpočinout na velkých pytlích, vyfotit se u naší fotostěny nebo se dozvědět více o naší organizaci, ESN! Mimo jiné zde bude možné soutěžit o hodnotné ceny při vyplnění kvízu! Během celého dne bude také k dispozici občerstvení před budovou Fakulty podnikatelské a to od Anne‘s Foodtruck! Krom toho si bude také moci zahrát například stolní fotbálek nebo si dát výborné kafe!</p>
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 order-md-1 order-sm-2">
+                <img class="img-fluid d-block" src="imgs/Images/Images/46493659_1813969202059800_1621061708531367936_o.jpg" alt="Partneři">
+            </div>
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6 order-1 order-xs-2 order-md-2 order-sm-1">
+                <h3>Partneři</h3>
+                <p class="mb-3 lead">Během dne budou mít ve vestibulu Fakulty podnikatelské stánky také naši partneři, u
+                    kterých se můžete dozvědět více o jejich pracovních příležitostech a stážích. Mimo jiné budou také
+                    probíhat prezentace těchto parnerů. Můžete se těšit například na Kyndryl, JC Correct či Tutuki.</p>
+            </div>
         </div>
-        <div class="col-lg-6"> <img class="img-fluid d-block" src="imgs/Images/Images/46516603_1813969542059766_4848557210013270016_o.jpg" alt="Chillout zona"> </div>
-      </div>
     </div>
-  </div>
-  <div class="py-5 bg-light" style="">
+</div>
+<div class="py-3 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center display-4 m-1 p-2 text-dark text-uppercase">Jak to vypadalo minule</h2>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fl_MOsFUDQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+        <div class="row">
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
+                <h3>Doprovodný program</h3>
+                <p class="mb-3 lead">
+                    V naší chillout zóně si budete moci odpočinout na velkých pytlích, vyfotit se u
+                    naší fotostěny nebo se dozvědět více o naší organizaci ESN VUT Brno.
+                    Mimo jiné zde bude možné soutěžit o hodnotné ceny při vyplnění kvízu nebo soutěžního pexesa!
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid d-block" src="imgs/2021/IMG_5845.jpg" alt="Chillout zóna">
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-<!--  <div class="py-5 bg-light" id="program">
+</div>
+<div class="py-3 pb-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid d-block" src="imgs/2021/IMG05048.jpg" alt="Občerstvení">
+            </div>
+            <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
+                <h3>Občerstvení</h3>
+                <p class="mb-3 lead">
+                    Během celého dne bude také k dispozici občerstvení před budovou Fakulty podnikatelské a to od Anne‘s
+                    Foodtruck! Krom toho si bude také moci zahrát například stolní fotbálek nebo si dát výborné kafe od
+                    Vintage coffee!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-primary text-light" id="program">
+    <div id="program" class="container">
+        <div class="row">
+            <div class="col-12 text-center ">
+                <h2 class="display-4 m-4 p-2 text-uppercase">Program</h2>
+
+                <p class="h5">09:00 Matouš Kocháň</p>
+                <h3 class="pb-4">Proč jít na Erasmus? Raději Freemover? Jak zažít Erasmus v Brně?</h3>
+
+                <p class="h5">09:40 David Gurník</p>
+                <h3 class="pb-4">Erasmus+ a další mobilitní programy</h3>
+
+                <p class="h5">10:20 Jirka Soukup</p>
+                <h3 class="pb-4">Do srdce Pyrenejí</h3>
+
+                <p class="h5">12:00 Joe Kolář</p>
+                <h3 class="pb-4">Proč mi Erasmus zničil život, aneb (ne)jezděte</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="py-5 bg-light" style="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center display-4 m-1 p-2 text-dark text-uppercase">Jak to vypadalo v roce 2019</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fl_MOsFUDQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  old table
+<div class="py-5 bg-light" id="program">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -357,171 +437,168 @@
       </div>
     </div>
   </div>  -->
- <!-- <div class="py-5 bg-light">
+<!-- <div class="py-5 bg-light">
+   <div class="container">
+     <div class="row">
+       <div class="mx-auto col-md-12 text-center">
+         <div class="col-md-12">
+           <h2 class="text-center display-4 text-dark text-uppercase">Zkušenosti studentů</h2>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-6">
+         <div class="row mb-4">
+           <div class="col-4 col-md-4" style=""> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/24176971_1532104676867891_4926339933875294994_n.jpg" width="180" alt="David"> </div>
+           <div class="col-8" style="">
+             <h4>David, FIT</h4>
+             <h5 contenteditable="false">Kréta a Dánsko</h5>
+             <p class="mb-0">David strávil při svém dosavadním studiu celkově tři semestry studiem v zahraničí. Na bakalářském studiu to byla Kréta a magisterském Odense, Dánsko o kterých bude David hovořit, ale jeden semestr strávil také v Portu, Portugalsko. Přijďte si poslechnou jeho zážitky a zkušenosti z těchto pobytů!</p>
+           </div>
+         </div>
+         <div class="row mb-4">
+           <div class="col-4"> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/m.jpg" width="180" alt="Marťa"> </div>
+           <div class="col-8">
+             <h4>Marťa, FEKT</h4>
+             <h5 contenteditable="false">Portugalsko</h5>
+             <p class="mb-0">Marťa se rozhodla vyjet na svůj studijní pobyt v zahraničí již ve druhém ročníku jejího studija. Jako svou destinaci si nakonec vybrala Porto, Portugalsko. Jaké to bylo zvykat si na styl života v novém prosředí? Co na ní zanechalo největší dojem a co jí bude na Portu chybět? O tom Vám marťa poví ve své prezentaci!</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-6">
+         <div class="row mb-4">
+           <div class="col-4 col-md-4" style=""> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/stepan.png" width="200" alt="Štěpán"> </div>
+           <div class="col-8" style="">
+             <h4>Štěpán, FSI</h4>
+             <h5 contenteditable="false">Norsko</h5>
+             <p class="mb-0"> Štěpán se na své zahraniční studium rozhodl pro měste v jedné ze severských zemí a to Trodheim, Norsko. Jak je obecně známo, Norsko je jednou z nejdražších zemí pro život. Jak nákladný byl celkově pobyt v Norsku na jeden semestr? Co by Štěpán doporučil před rozhodnutím jet do Norska? Přijďte a dozvíte se toto a mnohem více při jeho prezentaci!</p>
+           </div>
+         </div>
+         <div class="row mb-4">
+           <div class="col-4"> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/23331457_10203810233054404_1520002194305594404_o.jpg" width="200" alt="Dominik"> </div>
+           <div class="col-8">
+             <h4>Dominik, FEKT</h4>
+             <h5 contenteditable="false">Mongolsko a Korea</h5>
+             <p class="mb-0">Dominik si pro své zahraniční studium vybral dvě neobvyklé destinace a to Mongolsko a Koreu. V obou případech se nejedná o jednoduchý proces při přijetí ke studiu. Láká tě studium v netradičních destinacích? Chtěl by ses dozvědět více o studiu v těchto zemích? Přijď si poslechnout Dominikovy zážitky a rady jak na to!</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div> -->
+<!-- <div class="py-5 text-center bg-light" id="foto" >
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+
+         <h2 class="text-center display-4 text-dark text-uppercase pt-5">Fotosoutěž</h2>
+         <h3>"Zážitky z léta"</h3>
+         <p>V letošním roce jsme si pro Vás připravili speciální fotosoutěž, jejíž výsledky budou vyhlášeny na samotné akci. Pro účast v této soutěži je potřeba sdílet na Facebooku nebo Instagramu fotografii spojenou s cestováním a s hashtagy #movineuropeBRNO #mobilityisalifestyle a #esnvutbrno. Fotografie mohou být i například z Vašeho letního cestování. Vyhrát můžete hodnotné ceny, které budou vyhlášeny později.&nbsp;</p>
+         <h4>A jaké fotografie jsou doposud v soutěži?</h4>
+       </div>
+     </div>
+   </div>
+ </div>-->
+<div class="py-5 bg-light" id="partners">
     <div class="container">
-      <div class="row">
-        <div class="mx-auto col-md-12 text-center">
-          <div class="col-md-12">
-            <h2 class="text-center display-4 text-dark text-uppercase">Zkušenosti studentů</h2>
-          </div>
+        <div class="row">
+            <div class="text-center mx-auto col-md-12">
+                <h2 class="text-center display-3 m-1 p-2 text-dark text-uppercase pt-5">Naši partneři</h2>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="row mb-4">
-            <div class="col-4 col-md-4" style=""> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/24176971_1532104676867891_4926339933875294994_n.jpg" width="180" alt="David"> </div>
-            <div class="col-8" style="">
-              <h4>David, FIT</h4>
-              <h5 contenteditable="false">Kréta a Dánsko</h5>
-              <p class="mb-0">David strávil při svém dosavadním studiu celkově tři semestry studiem v zahraničí. Na bakalářském studiu to byla Kréta a magisterském Odense, Dánsko o kterých bude David hovořit, ale jeden semestr strávil také v Portu, Portugalsko. Přijďte si poslechnou jeho zážitky a zkušenosti z těchto pobytů!</p>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="imgs/2021-partners.png" alt="Mov'in Europe 2021 Partners" class="img-fluid mt-3 mb-5">
             </div>
-          </div>
-          <div class="row mb-4">
-            <div class="col-4"> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/m.jpg" width="180" alt="Marťa"> </div>
-            <div class="col-8">
-              <h4>Marťa, FEKT</h4>
-              <h5 contenteditable="false">Portugalsko</h5>
-              <p class="mb-0">Marťa se rozhodla vyjet na svůj studijní pobyt v zahraničí již ve druhém ročníku jejího studija. Jako svou destinaci si nakonec vybrala Porto, Portugalsko. Jaké to bylo zvykat si na styl života v novém prosředí? Co na ní zanechalo největší dojem a co jí bude na Portu chybět? O tom Vám marťa poví ve své prezentaci!</p>
-            </div>
-          </div>
         </div>
-        <div class="col-lg-6">
-          <div class="row mb-4">
-            <div class="col-4 col-md-4" style=""> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/stepan.png" width="200" alt="Štěpán"> </div>
-            <div class="col-8" style="">
-              <h4>Štěpán, FSI</h4>
-              <h5 contenteditable="false">Norsko</h5>
-              <p class="mb-0"> Štěpán se na své zahraniční studium rozhodl pro měste v jedné ze severských zemí a to Trodheim, Norsko. Jak je obecně známo, Norsko je jednou z nejdražších zemí pro život. Jak nákladný byl celkově pobyt v Norsku na jeden semestr? Co by Štěpán doporučil před rozhodnutím jet do Norska? Přijďte a dozvíte se toto a mnohem více při jeho prezentaci!</p>
-            </div>
-          </div>
-          <div class="row mb-4">
-            <div class="col-4"> <img class="img-fluid d-block mx-auto rounded-circle" src="imgs/Images/Images/23331457_10203810233054404_1520002194305594404_o.jpg" width="200" alt="Dominik"> </div>
-            <div class="col-8">
-              <h4>Dominik, FEKT</h4>
-              <h5 contenteditable="false">Mongolsko a Korea</h5>
-              <p class="mb-0">Dominik si pro své zahraniční studium vybral dvě neobvyklé destinace a to Mongolsko a Koreu. V obou případech se nejedná o jednoduchý proces při přijetí ke studiu. Láká tě studium v netradičních destinacích? Chtěl by ses dozvědět více o studiu v těchto zemích? Přijď si poslechnout Dominikovy zážitky a rady jak na to!</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        <!--
+
+                <div class="row">
+                    <div class="col-md-4 p-3"><img class="img-fluid d-block" src="imgs/logos/VUT_logo_CZ.png" alt="VUT logo">
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <img class="img-fluid d-block" src="imgs/logos/FP.png" alt="Fakulta podnikatelská VUT"></div>
+                    <div class="col-md-4 p-3"><img class="img-fluid d-block" src="imgs/logos/SKAS.png" alt="SKAS VUT"></div>
+                </div>
+                <div class="row">
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/ann.png" alt="Anne's foodtruck" width="50%"> </div>
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/Skoda-logo-2016-1920x1080.png" alt="Škoda"> </div>
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/correct_cmyk.png" alt="Correct Jazykové centrum"> </div>
+              </div>
+               <div class="row">
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/czechitas_fullcolor.png" alt="Czechitas"> </div>
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/FlixBus_Logo_CMYK_green.png" alt="Flixbus"> </div>
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/Honeywell_Logo_RGB_Red_cmyk.png" alt="Honeywell"> </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/BEST_Brno_logo.png" alt="BEST Brno" width="80%"> </div>
+                <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/ibm.gif" alt="IBM"> </div>
+                <div class="col-md-4 pt-5 pl-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/alfa.png" alt="Alfa agency"> </div>
+              </div>
+            </div>  -->
+        <!--    <div class="row">
+             <div class="col-md-4 "> </div>
+             <div class="col-md-4 "> <img class="img d-block mx-auto" src="imgs/logos/BEST_Brno_logo.png" alt="BEST Brno" > </div>
+             <div class="col-md-4 " ></div>
+           </div>-->
     </div>
-  </div> -->
- <!-- <div class="py-5 text-center bg-light" id="foto" >
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <h2 class="text-center display-4 text-dark text-uppercase pt-5">Fotosoutěž</h2>
-          <h3>"Zážitky z léta"</h3>
-          <p>V letošním roce jsme si pro Vás připravili speciální fotosoutěž, jejíž výsledky budou vyhlášeny na samotné akci. Pro účast v této soutěži je potřeba sdílet na Facebooku nebo Instagramu fotografii spojenou s cestováním a s hashtagy #movineuropeBRNO #mobilityisalifestyle a #esnvutbrno. Fotografie mohou být i například z Vašeho letního cestování. Vyhrát můžete hodnotné ceny, které budou vyhlášeny později.&nbsp;</p>
-          <h4>A jaké fotografie jsou doposud v soutěži?</h4>
+    <div class="bg-faded py-0 text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row bg-light" id="footer">
+                <div class="col-md-6 text-center align-self-center">
+                    <h2 class="display-4 text-uppercase">ESN VUT Brno</h2>
+                    <p contenteditable="true" class="break lead"><b>Fakulta podnikatelská</b>&nbsp; E223<br>Kolejní
+                        2906/4 &nbsp; 612 00 Brno <br>
+                        <br></p>
+                    <div class="my-3 row text-center">
+                        <div class="col-3">
+                            <a href="https://www.facebook.com/esn.vut.brno/" target="blank"><i class="fa fa-3x fa-facebook text-dark"></i></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.youtube.com/channel/UCh5hjL-ID6ZXQ6YLicjcHNA" target="blank"><i class="fa fa-3x fa-youtube-play text-dark"></i></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.instagram.com/esnvutbrno/" target="blank"><i class="fa fa-3x fa-instagram text-dark"></i></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="http://but.esnbrno.cz/" target="blank"><i class="fa fa-3x fa-chrome text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBw2t4cT3eLn2ogPT3mtBOHh0M5Kla8lAQ&amp;&amp;markers=Kolejni+4&amp;center=Kolejni+4&amp;&amp;zoom=16&amp;size=640x300&amp;sensor=false&amp;scale=2" class="img-fluid" alt="ESN VUT Brno office">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row bg-light">
+                        <div class="col-md-12 mt-3 text-center">
+                            <p class="text-muted">© Copyright 2021 ESN&nbsp;VUT Brno - All rights reserved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>-->
-  <div class="py-5 bg-light" id="partner">
-    <div class="container">
-      <div class="row">
-        <div class="text-center mx-auto col-md-12">
-          <h2 class="text-center display-3 m-1 p-2 text-dark text-uppercase pt-5">Naši partneři</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="imgs/logos/VUT_logo_CZ.png" alt="VUT logo"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="imgs/logos/FP.png" alt="Fakulta podnikatelská VUT"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="imgs/logos/SKAS.png" alt="SKAS VUT"> </div>
-      </div>
-<!--  <div class="row">
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/ann.png" alt="Anne's foodtruck" width="50%"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/Skoda-logo-2016-1920x1080.png" alt="Škoda"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/correct_cmyk.png" alt="Correct Jazykové centrum"> </div>
-      </div>
-       <div class="row">
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/czechitas_fullcolor.png" alt="Czechitas"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/FlixBus_Logo_CMYK_green.png" alt="Flixbus"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/Honeywell_Logo_RGB_Red_cmyk.png" alt="Honeywell"> </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/BEST_Brno_logo.png" alt="BEST Brno" width="80%"> </div>
-        <div class="col-md-4 p-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/ibm.gif" alt="IBM"> </div>
-        <div class="col-md-4 pt-5 pl-3"> <img class="img-fluid d-block mx-auto" src="imgs/logos/alfa.png" alt="Alfa agency"> </div>
-      </div>
-    </div>  -->
-   <!--    <div class="row">
-        <div class="col-md-4 "> </div>
-        <div class="col-md-4 "> <img class="img d-block mx-auto" src="imgs/logos/BEST_Brno_logo.png" alt="BEST Brno" > </div>
-        <div class="col-md-4 " ></div>
-      </div>-->
-  </div>
-  <div class="bg-faded py-0 text-center">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6"> </div>
-      </div>
-      <div class="row bg-light" id="footer">
-        <div class="col-md-6 text-center align-self-center">
-          <h2 class="display-4 text-uppercase">ESN VUT Brno</h2>
-          <p contenteditable="true" class="break lead"><b>Fakulta podnikatelská</b>&nbsp; E223<br>Kolejní 2906/4 &nbsp; 612 00 Brno <br>
-            <br> </p>
-          <div class="my-3 row text-center">
-            <div class="col-3">
-              <a href="https://www.facebook.com/esn.vut.brno/" target="blank"><i class="fa fa-3x fa-facebook text-dark"></i></a>
-            </div>
-            <div class="col-3">
-              <a href="https://www.youtube.com/channel/UCh5hjL-ID6ZXQ6YLicjcHNA" target="blank"><i class="fa fa-3x fa-youtube-play text-dark"></i></a>
-            </div>
-            <div class="col-3">
-              <a href="https://www.instagram.com/esnvutbrno/" target="blank"><i class="fa fa-3x fa-instagram text-dark"></i></a>
-            </div>
-            <div class="col-3">
-              <a href="http://but.esnbrno.cz/" target="blank"><i class="fa fa-3x fa-chrome text-dark"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div>
-            <img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBw2t4cT3eLn2ogPT3mtBOHh0M5Kla8lAQ&amp;&amp;markers=Kolejni+4&amp;center=Kolejni+4&amp;&amp;zoom=16&amp;size=640x300&amp;sensor=false&amp;scale=2" class="img-fluid" alt="ESN VUT Brno office"> </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row bg-light">
-            <div class="col-md-12 mt-3 text-center">
-              <p class="text-muted">© Copyright 2021 ESN&nbsp;VUT Brno - All rights reserved. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    document.querySelector('#aboutbutton').addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
-      });
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        document.querySelectorAll('a.scroll').forEach(el => {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector('#' + this.dataset.target).scrollIntoView({behavior: 'smooth'});
+            });
+        });
+    </script>
+    <script src="/js/smoothscroll.js" type="text/javascript"></script>
 
-        document.querySelector('#programbutton').addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#program').scrollIntoView({ behavior: 'smooth' });
-      });
-
-        document.querySelector('#partnerbutton').addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#partner').scrollIntoView({ behavior: 'smooth' });
-      });
-
-        document.querySelector('#fotobutton').addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#foto').scrollIntoView({ behavior: 'smooth' });
-      });
-
-
-  </script>
-    <script src="/js/smoothscroll.js"  type="text/javascript"></script>
-
+</div>
 </body>
 
 </html>
