@@ -16,6 +16,13 @@
           hover:[&>*]:scale-105
         "
     >
+
+      <img
+          src="~/assets/svg/movin.svg"
+          alt="Mov'in Europe logo"
+          width="238" height="88"
+          class="mt-auto max-w-xs w-full transform"
+      >
       <h1 class="
         text-6xl md:text-8xl uppercase font-bold text-center
         mt-auto
@@ -204,12 +211,14 @@
 
       flex flex-col justify-start items-center
       bg-map prose-custom
+
+      px-6 gap-y-6
     ">
       <h2>Naši partneři</h2>
 
       <div class="
         flex flex-row flex-wrap w-full max-w-6xl items-center
-        bg-white rounded-2xl
+        bg-white rounded-2xl transform
       ">
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
@@ -228,14 +237,85 @@
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/best.jpg"
-              alt="Czech us"
+              alt="BEST"
               class="w-full p-10"
+          >
+        </div>
+      </div>
+
+      <div class="
+        flex flex-row flex-wrap w-full max-w-6xl items-center
+        bg-white rounded-2xl transform
+      ">
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/vut.svg"
+              alt="VUT"
+              class="w-full p-10"
+          >
+        </div>
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/vut-fp.svg"
+              alt="VUT FP"
+              class="w-full p-10"
+          >
+        </div>
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/vut-skas.svg"
+              alt="Czech us"
+              class="VUT SKAS"
           >
         </div>
       </div>
     </section>
 
+    <section class="
+      min-h-screen
+      bg-gradient-to-b
+      from-[#1A91B1] via-[#12657b] to-[#09323d]
 
+      flex flex-col justify-start items-center
+      bg-map prose-custom
+    ">
+      <h2>Kdo jsme</h2>
+
+      <p class="text-white max-w-2xl text-center px-6">
+        ESN VUT Brno je dobrovolná organizace, založená díky touze pomáhat studentům Erasmu,
+        kteří přijedou studovat na VUT. Děláme to pro myšlenku myšlenku výměnného programu Erasmus, která nám velmi imponuje!
+      </p>
+
+      <a href="https://esnvutbrno.cz"><img
+          src="~/assets/svg/esn-vut.svg"
+          class="max-w-xs w-full text-white flex-grow transition transform hover:scale-110"
+          alt="ESN VUT Brno" width="144" height="80"
+      ></a>
+
+      <div class="
+        flex-grow
+        flex flex-col lg:flex-row justify-center items-center w-full gap-x-8 px-8
+      ">
+        <div class="aspect-video flex-grow">
+          <iframe
+              class="w-full h-full"
+              width="560" height="315"
+              src="https://www.youtube.com/embed/StfEszxYTf4?si=pg0FEmB6rylxoaDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="aspect-video flex-grow">
+          <iframe
+              class="w-full h-full"
+              width="560" height="315"
+              src="https://www.youtube.com/embed/b7wtcu7BN6U?si=-dii-9eorZ1Jm8K_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="aspect-video flex-grow">
+          <iframe
+              class="w-full h-full"
+              width="560" height="315"
+              src="https://www.youtube.com/embed/AqnBwoS6Mfc?si=-mF9jULvtvzIWXfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -251,7 +331,7 @@
     bottom: 0;
     right: 0;
     content: "";
-    opacity: 0.8;
+    opacity: .9;
     background-image: url("~/assets/svg/map.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,7 +342,7 @@
   @apply
   px-4
   rounded-2xl
-  bg-white/80
+  bg-white
   w-full md:w-1/2 lg:w-1/4
   transition
   md:m-0 -my-2
@@ -296,10 +376,14 @@
 useSeoMeta({
   title: "Mov'in Europe 2023 | ESN VUT Brno" ,
   ogTitle: "Mov'in Europe 2023 | ESN VUT Brno",
-  description: '',
-  ogDescription: '',
-  ogImage: '',
+  description: 'TAKE THE FIRST STEP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
+  ogDescription: 'TAKE THE FIRST STAP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
+  ogImage: {
+    url: "https://movineurope.cz/og.jpg",
+    width: "2048",
+    height: "1152",
+    alt: "Mov'in Europe 2023 | ESN VUT Brno",
+  },
   twitterCard: 'summary_large_image',
 })
 </script>
-
