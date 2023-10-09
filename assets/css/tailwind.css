@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+    @apply snap-y snap-mandatory scroll-smooth;
+}
+
+section {
+    @apply snap-start snap-always
+}
+
+@layer components {
+    .font-text {
+        font-family: 'Inter', sans-serif;
+    }
+}
+.prose-custom {
+    @apply prose prose-invert prose-2xl prose-headings:mt-6 max-w-none prose-headings:drop-shadow-xl
+}
