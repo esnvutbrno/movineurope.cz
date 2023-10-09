@@ -377,7 +377,7 @@ useSeoMeta({
   title: "Mov'in Europe 2023 | ESN VUT Brno" ,
   ogTitle: "Mov'in Europe 2023 | ESN VUT Brno",
   description: 'TAKE THE FIRST STEP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
-  ogDescription: 'TAKE THE FIRST STAP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
+  ogDescription: 'TAKE THE FIRST STEP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
   ogImage: {
     url: "https://movineurope.cz/og.jpg",
     width: "2048",
