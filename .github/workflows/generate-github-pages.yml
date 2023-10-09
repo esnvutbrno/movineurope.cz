@@ -3,7 +3,7 @@ name: Generate static pages for deploy
 on:
   push: # to main branch
     branches:
-      - *
+      - "*"
   workflow_dispatch:
 
 concurrency:
