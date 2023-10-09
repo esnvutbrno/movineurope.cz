@@ -22,3 +22,29 @@ section {
         prose prose-2xl prose-headings:mt-6 max-w-none prose-headings:drop-shadow-xl
         prose-h2:prose-invert
 }
+
+
+@font-face {
+    font-family: "Kelson Sans";
+    src: url(~/assets/fonts/KelsonSansRegular.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kelson Sans";
+    src: url(~/assets/fonts/KelsonSansLight.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kelson Sans";
+    src: url(~/assets/fonts/KelsonSansBold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font-kelson {
+    font-family: "Kelson Sans", sans-serif;
+}

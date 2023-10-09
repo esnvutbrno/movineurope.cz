@@ -8,7 +8,7 @@
           flex flex-col items-center justify-center text-center
           gap-y-6 px-6
 
-          text-white
+          text-white font-kelson
           bg-map
 
           [&>*]:transition
