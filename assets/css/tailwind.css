@@ -18,5 +18,7 @@ section {
     }
 }
 .prose-custom {
-    @apply prose prose-invert prose-2xl prose-headings:mt-6 max-w-none prose-headings:drop-shadow-xl
+    @apply
+        prose prose-2xl prose-headings:mt-6 max-w-none prose-headings:drop-shadow-xl
+        prose-h2:prose-invert
 }

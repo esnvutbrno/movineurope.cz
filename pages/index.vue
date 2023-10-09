@@ -92,7 +92,7 @@
 
       bg-gradient-to-b
       from-[#09323d] via-[#12657b] to-[#1A91B1]
-      text-white py-8
+      py-8
 
       flex flex-col justify-center items-center
       prose-custom
@@ -103,6 +103,7 @@
         flex flex-row flex-wrap items-center justify-center
         gap-12 px-4
       ">
+
         <article class="Card">
           <h4>Zahraniční studenti</h4>
           <p>
@@ -153,17 +154,17 @@
       flex flex-col justify-start items-center
       bg-map
     ">
-      <h2 class="">Přijďte si poslechnout</h2>
-      <div class="max-w-5xl bg-white/90 p-4 rounded-2xl drop-shadow-2xl backdrop-blur">
+      <h2>Přijďte si poslechnout</h2>
+      <div class="max-w-5xl bg-white p-4 rounded-2xl">
         <table class="text-[#1A91B1]">
-          <thead class="[&_th]:text-gray-800">
+          <thead class="[&_th]:text-gray-900">
           <tr>
             <th>Co?</th>
             <th>Kdo?</th>
             <th>Kdy?</th>
           </tr>
           </thead>
-          <tbody class="text-2xl">
+          <tbody class="text-2xl [&_td]:text-gray-700">
           <tr>
             <td>Erasmus a další programy o mobilitě</td>
             <td>Zahraniční odd. VUT</td>
@@ -201,10 +202,37 @@
       bg-gradient-to-b
       from-[#09323d] via-[#12657b] to-[#1A91B1]
 
-      prose-custom p-6
       flex flex-col justify-start items-center
-      bg-map
+      bg-map prose-custom
     ">
+      <h2>Naši partneři</h2>
+
+      <div class="
+        flex flex-row flex-wrap w-full max-w-6xl items-center
+        bg-white rounded-2xl
+      ">
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/kyndryl.svg"
+              alt="Kyndryl"
+              class="w-full p-10"
+          >
+        </div>
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/czech-us.svg"
+              alt="Czech us"
+              class="w-full p-10"
+          >
+        </div>
+        <div class="w-full md:w-1/3 flex items-center justify-center">
+          <img
+              src="~/assets/partners/best.jpg"
+              alt="Czech us"
+              class="w-full p-10"
+          >
+        </div>
+      </div>
     </section>
 
 
@@ -233,8 +261,8 @@
 .Card {
   @apply
   px-4
-  rounded-2xl drop-shadow-2xl
-  backdrop-blur-md bg-[#1A91B1]
+  rounded-2xl
+  bg-white/80
   w-full md:w-1/2 lg:w-1/4
   transition
   md:m-0 -my-2
@@ -254,13 +282,14 @@
   }
 
   p {
-    @apply text-white/80
+    @apply text-gray-500
   }
 }
 
 .drop-shadow-title {
   filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, .8)) drop-shadow(0 0 10px rgba(0, 0, 0, .8)) drop-shadow(10px 10px 10px rgba(0, 0, 0, .8));
 }
+
 </style>
 
 <script setup lang="ts">
