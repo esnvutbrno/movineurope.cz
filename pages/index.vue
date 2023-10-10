@@ -316,6 +316,17 @@
         </div>
       </div>
     </section>
+
+    <footer class="
+       bg-blue-950 text-gray-300 flex flex-row p-8 justify-center
+       gap-x-8
+    ">
+      &copy; ESN VUT Brno 2023
+      <a
+          href="https://github.com/esnvutbrno/movineurope.cz"
+          class="hover:underline"
+      >esnvutbrno/movineurope.cz</a>
+    </footer>
   </div>
 </template>
 
