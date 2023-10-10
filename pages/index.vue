@@ -178,7 +178,7 @@
           ">
           <tr>
             <td>Erasmus a další programy o mobilitě</td>
-            <td>Zahraniční odd. VUT</td>
+            <td>Odbor internacionalizace VUT</td>
             <td>9:00-9:40</td>
           </tr>
           <tr>
