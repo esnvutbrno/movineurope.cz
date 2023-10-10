@@ -171,7 +171,11 @@
             <th>Kdy?</th>
           </tr>
           </thead>
-          <tbody class="text-2xl [&_td]:text-gray-700">
+          <tbody class="
+            md:text-2xl [&_td]:text-gray-700
+            [&_td:last-child]:font-bold
+            [&_td]:drop-shadow
+          ">
           <tr>
             <td>Erasmus a další programy o mobilitě</td>
             <td>Zahraniční odd. VUT</td>
@@ -184,7 +188,7 @@
           </tr>
           <tr>
             <td>Korea: cesta přes půl světa</td>
-            <td>Maruška Soukupová</td>
+            <td>Marie Soukupová</td>
             <td>11:20-12:00</td>
           </tr>
           <tr>
@@ -195,7 +199,7 @@
 
           <tr>
             <td>Řecko: Odkaz Olympu a trocha tzatziki</td>
-            <td>Kuba Starý</td>
+            <td>Jakub Starý</td>
             <td>13:20-14:00</td>
           </tr>
           </tbody>
@@ -220,48 +224,43 @@
         flex flex-row flex-wrap w-full max-w-6xl items-center
         bg-white rounded-2xl transform
       ">
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/kyndryl.svg"
               alt="Kyndryl"
               class="w-full px-4"
           >
         </div>
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/czech-us.svg"
               alt="Czech us"
               class="w-full px-4"
           >
         </div>
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/best.jpg"
               alt="BEST"
               class="w-full px-4"
           >
         </div>
-      </div>
 
-      <div class="
-        flex flex-row flex-wrap w-full max-w-6xl items-center
-        bg-white rounded-2xl transform
-      ">
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/vut.svg"
               alt="VUT"
               class="w-full px-4"
           >
         </div>
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/vut-fp.svg"
               alt="VUT FP"
               class="w-full px-4"
           >
         </div>
-        <div class="w-full md:w-1/3 flex items-center justify-center">
+        <div class="w-1/2 md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/vut-skas.svg"
               alt="VUT SKAS"
@@ -294,23 +293,24 @@
 
       <div class="
         flex-grow
-        flex flex-col lg:flex-row justify-center items-center w-full gap-x-8 px-8
+        flex flex-col lg:flex-row justify-center items-center w-full
+        gap-x-8 gap-y-8 p-8
       ">
         <div class="aspect-video flex-grow">
           <iframe
-              class="w-full h-full"
+              class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
               src="https://www.youtube.com/embed/StfEszxYTf4?si=pg0FEmB6rylxoaDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="aspect-video flex-grow">
           <iframe
-              class="w-full h-full"
+              class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
               src="https://www.youtube.com/embed/b7wtcu7BN6U?si=-dii-9eorZ1Jm8K_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="aspect-video flex-grow">
           <iframe
-              class="w-full h-full"
+              class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
               src="https://www.youtube.com/embed/AqnBwoS6Mfc?si=-mF9jULvtvzIWXfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
