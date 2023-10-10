@@ -21,7 +21,7 @@
           src="~/assets/svg/movin.svg"
           alt="Mov'in Europe logo"
           width="238" height="88"
-          class="mt-auto max-w-xs w-full transform"
+          class="mt-auto max-w-xs w-full transform drop-shadow"
       >
       <h1 class="
         text-6xl md:text-8xl uppercase font-bold text-center
@@ -152,7 +152,7 @@
       </div>
     </section>
 
-    <section class="
+    <section id="program" class="
       min-h-screen
       bg-gradient-to-b
       from-[#1A91B1] via-[#12657b] to-[#09323d]
@@ -162,49 +162,68 @@
       bg-map
     ">
       <h2>Přijďte si poslechnout</h2>
-      <div class="max-w-5xl bg-white p-4 rounded-2xl">
-        <table class="text-[#1A91B1]">
-          <thead class="[&_th]:text-gray-900">
-          <tr>
-            <th>Co?</th>
-            <th>Kdo?</th>
-            <th>Kdy?</th>
-          </tr>
-          </thead>
-          <tbody class="
-            md:text-2xl [&_td]:text-gray-700
-            [&_td:last-child]:font-bold
-            [&_td]:drop-shadow
-          ">
-          <tr>
-            <td>Erasmus a další programy o mobilitě</td>
-            <td>Odbor internacionalizace VUT</td>
-            <td>9:00-9:40</td>
-          </tr>
-          <tr>
-            <td>From nowhere to Czech Republic</td>
-            <td>Edi Nushi</td>
-            <td>9:50-10:30</td>
-          </tr>
-          <tr>
-            <td>Korea: cesta přes půl světa</td>
-            <td>Marie Soukupová</td>
-            <td>11:20-12:00</td>
-          </tr>
-          <tr>
-            <td>USA a Evropa: jak na to?</td>
-            <td>Work and Travel</td>
-            <td>12:30-13:10</td>
-          </tr>
+      <div class="max-w-5xl bg-white p-4 rounded-2xl text-[#1A91B1] flex flex-col">
 
-          <tr>
-            <td>Řecko: Odkaz Olympu a trocha tzatziki</td>
-            <td>Jakub Starý</td>
-            <td>13:20-14:00</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
+          <div class="text-gray-900 flex flex-row justify-between border-b-2 border-gray-600">
+            <span>Co?</span>
+            <span class="ml-auto">Kdo?</span>
+            <span class="md:w-48 text-right">Kdy?</span>
+          </div>
+
+        <div class="
+          md:text-2xl text-gray-700
+          flex flex-col justify-start items-center
+          divide-y-2
+
+          [&_div]:w-full
+          [&_div]:flex
+          [&_div]:flex-col
+          md:[&_div]:flex-row
+          md:[&_div]:justify-between
+          md:[&_div]:items-center
+
+          md:[&_div]:gap-x-8
+          md:[&_div]:py-4
+          [&_div_span]:drop-shadow
+          [&_div_span:last-child]:font-semibold
+          [&_div_span:last-child]:self-end
+          [&_div_span:last-child]:font-mono
+          [&_div_span:nth-child(2)]:text-sm
+          [&_div_span:nth-child(2)]:ml-auto
+        ">
+          <div>
+            <span>Erasmus a další programy o mobilitě</span>
+            <span>Odbor internacionalizace VUT</span>
+            <span>&nbsp;9:00-&nbsp;9:40</span>
+          </div>
+          <div >
+            <span>From nowhere to Czech Republic</span>
+            <span>Edi Nushi</span>
+            <span>&nbsp;9:50-10:30</span>
+          </div>
+          <div >
+            <span>Korea: cesta přes půl světa</span>
+            <span>Marie Soukupová</span>
+            <span>11:20-12:00</span>
+          </div>
+            <div >
+            <span>USA a Evropa: jak na to?</span>
+            <span>Work and Travel</span>
+            <span>12:30-13:10</span>
+          </div>
+            <div >
+            <span>Řecko: Odkaz Olympu a trocha tzatziki</span>
+            <span>Jakub Starý</span>
+            <span>13:20-14:00</span>
+          </div>
+        </div>
+
+        <div class="text-gray-900 font-semibold text-center py-4 border-t-2 border-gray-600">
+<!--          místnost xxx,-->
+          Fakulta podnikatelská, VUT
+        </div>
+
+        </div>
 
     </section>
 
