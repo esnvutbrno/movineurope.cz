@@ -224,21 +224,21 @@
           <img
               src="~/assets/partners/kyndryl.svg"
               alt="Kyndryl"
-              class="w-full p-10"
+              class="w-full px-4"
           >
         </div>
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/czech-us.svg"
               alt="Czech us"
-              class="w-full p-10"
+              class="w-full px-4"
           >
         </div>
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/best.jpg"
               alt="BEST"
-              class="w-full p-10"
+              class="w-full px-4"
           >
         </div>
       </div>
@@ -251,21 +251,21 @@
           <img
               src="~/assets/partners/vut.svg"
               alt="VUT"
-              class="w-full p-10"
+              class="w-full px-4"
           >
         </div>
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/vut-fp.svg"
               alt="VUT FP"
-              class="w-full p-10"
+              class="w-full px-4"
           >
         </div>
         <div class="w-full md:w-1/3 flex items-center justify-center">
           <img
               src="~/assets/partners/vut-skas.svg"
-              alt="Czech us"
-              class="VUT SKAS"
+              alt="VUT SKAS"
+              class="w-full px-4"
           >
         </div>
       </div>

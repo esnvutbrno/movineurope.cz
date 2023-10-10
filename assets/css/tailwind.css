@@ -5,17 +5,15 @@
 
 
 html {
-    @apply snap-y snap-mandatory scroll-smooth;
+    @apply snap-y snap-proximity scroll-smooth;
 }
 
 section {
-    @apply snap-start snap-always
+    @apply snap-start
 }
 
 @layer components {
-    .font-text {
-        font-family: 'Inter', sans-serif;
-    }
+
 }
 .prose-custom {
     @apply
