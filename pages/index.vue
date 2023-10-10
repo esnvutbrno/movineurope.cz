@@ -167,7 +167,7 @@
           <div class="text-gray-900 flex flex-row justify-between border-b-2 border-gray-600">
             <span>Co?</span>
             <span class="ml-auto">Kdo?</span>
-            <span class="md:w-48 text-right">Kdy?</span>
+            <span class="w-24 md:w-48 text-right">Kdy?</span>
           </div>
 
         <div class="
@@ -301,7 +301,7 @@
 
       <p class="text-white max-w-2xl text-center px-6">
         ESN VUT Brno je dobrovolná organizace, založená díky touze pomáhat studentům Erasmu,
-        kteří přijedou studovat na VUT. Děláme to pro myšlenku myšlenku výměnného programu Erasmus, která nám velmi imponuje!
+        kteří přijedou studovat na VUT. Děláme to pro myšlenku výměnného programu Erasmus, která nám velmi imponuje!
       </p>
 
       <a href="https://esnvutbrno.cz"><img
