@@ -2,10 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-      '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
     '@hypernym/nuxt-anime',
     '@nuxtjs/google-fonts',
     '@zadigetvoltaire/nuxt-gtm',
+    '@nuxt/image',
+
   ],
 
   gtm: {

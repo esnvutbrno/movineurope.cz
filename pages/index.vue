@@ -108,47 +108,89 @@
       <h2>Co vás čeká?</h2>
       <div class="
         flex flex-row flex-wrap items-center justify-center
-        gap-12 px-4
+        gap-12 px-4 w-full flex-grow
       ">
+        <div class="Card__flipper">
+          <div class="Card__inner">
+            <article class="Card">
+              <h4>Zahraniční studenti</h4>
+              <p>
+                Na festival dorazí zahraniční studenti, kteří jsou na VUT na zahraniční mobilitě.
+                Přinesou své zkušenosti a vyprávění o tom, jaké to je studovat v zahraničí.
+              </p>
+            </article>
+            <div class="Card__back">
+              <NuxtImg src="/images/IMG_5725.jpg"></NuxtImg>
+            </div>
+          </div>
+        </div>
 
-        <article class="Card">
-          <h4>Zahraniční studenti</h4>
-          <p>
-            Na festival dorazí zahraniční studenti, kteří jsou na VUT na zahraniční mobilitě.
-            Přinesou své zkušenosti a vyprávění o tom, jaké to je studovat v zahraničí.
-          </p>
-        </article>
+        <div class="Card__flipper">
+          <div class="Card__inner">
+            <article class="Card">
+              <h4>Studijní pobyty</h4>
+              <p>
+                Naše zahraniční oddělení představí všechny možnosti, jak se dostat na zahraniční studijní pobyt.
+                Chybět nebude Erasmus+, CEEPUS, Freemover ani žádné další, kompletní nabídka.
+              </p>
+            </article>
+            <div class="Card__back">
+              <NuxtImg src="/images/IMG_5725.jpg"></NuxtImg>
+            </div>
+          </div>
+        </div>
 
-        <article class="Card">
-          <h4>Studijní pobyty</h4>
-          <p>
-            Naše zahraniční oddělení představí všechny možnosti, jak se dostat na zahraniční studijní pobyt.
-            Chybět nebude Erasmus+, CEEPUS, Freemover ani žádné další, kompletní nabídka.
-          </p>
-        </article>
+        <div class="Card__flipper">
+          <div class="Card__inner">
 
-        <article class="Card">
-          <h4>Lokální studenti</h4>
-          <p>
-            Uslyšíš ty nejupřímnější zkušenosti od studentů, kteří se vrátili zahraničního studia.
-            Jaké to bylo, na co je třeba myslet a co jim pobyt vzal a dal.
-          </p>
-        </article>
 
-        <article class="Card">
-          <h4>Stánky partnerů</h4>
-          <p>
-            Na festivalu budou přítomni i partneři, kteří nabízejí zahraniční stáže a brigády.
-            Přijďte se podívat, co všechno nabízejí a jaké jsou podmínky.
-          </p>
-        </article>
-        <article class="Card">
-          <h4>Chillout zóna</h4>
-          <p>
-            Informací bude více než dost, co takhle si odpočinout u fotbálku?
-            Nebo si jen tak posedět a pokecat u kávy?
-          </p>
-        </article>
+            <article class="Card">
+              <h4>Lokální studenti</h4>
+              <p>
+                Uslyšíš ty nejupřímnější zkušenosti od studentů, kteří se vrátili ze zahraničního studia.
+                Jaké to bylo, na co je třeba myslet a co jim pobyt vzal a dal.
+              </p>
+            </article>
+            <div class="Card__back">
+              <NuxtImg src="/images/IMG_5725.jpg"></NuxtImg>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Card__flipper">
+          <div class="Card__inner">
+            <article class="Card">
+              <h4>Stánky partnerů</h4>
+              <p>
+                Na festivalu budou přítomni i partneři, kteří nabízejí zahraniční stáže a brigády.
+                Přijďte se podívat, co všechno nabízejí a jaké jsou podmínky.
+              </p>
+            </article>
+            <div class="Card__back">
+              <NuxtImg src="/images/IMG_5725.jpg"></NuxtImg>
+            </div>
+          </div>
+        </div>
+
+        <div class="Card__flipper px-4 w-full md:w-1/2 lg:w-1/4">
+          <div class="Card__inner">
+
+
+            <article class="Card">
+              <h4>Chillout zóna</h4>
+              <p>
+                Informací bude více než dost, co takhle si odpočinout u fotbálku?
+                Nebo si jen tak posedět a pokecat u kávy?
+              </p>
+            </article>
+            <div class="Card__back">
+              <NuxtImg src="/images/IMG_5725.jpg"></NuxtImg>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
@@ -164,11 +206,11 @@
       <h2>Přijďte si poslechnout</h2>
       <div class="max-w-5xl bg-white p-4 rounded-2xl text-[#1A91B1] flex flex-col">
 
-          <div class="text-gray-900 flex flex-row justify-between border-b-2 border-gray-600">
-            <span>Co?</span>
-            <span class="ml-auto">Kdo?</span>
-            <span class="w-24 md:w-48 text-right">Kdy?</span>
-          </div>
+        <div class="text-gray-900 flex flex-row justify-between border-b-2 border-gray-600">
+          <span>Co?</span>
+          <span class="ml-auto">Kdo?</span>
+          <span class="w-24 md:w-48 text-right">Kdy?</span>
+        </div>
 
         <div class="
           md:text-2xl text-gray-700
@@ -196,22 +238,22 @@
             <span>Odbor internacionalizace VUT</span>
             <span>&nbsp;9:00-&nbsp;9:40</span>
           </div>
-          <div >
+          <div>
             <span>From nowhere to Czech Republic</span>
             <span>Edi Nushi</span>
             <span>&nbsp;9:50-10:30</span>
           </div>
-          <div >
+          <div>
             <span>Korea: cesta přes půl světa</span>
             <span>Marie Soukupová</span>
             <span>11:20-12:00</span>
           </div>
-            <div >
+          <div>
             <span>USA a Evropa: jak na to?</span>
             <span>Work and Travel</span>
             <span>12:30-13:10</span>
           </div>
-            <div >
+          <div>
             <span>Řecko: Odkaz Olympu a trocha tzatziki</span>
             <span>Jakub Starý</span>
             <span>13:20-14:00</span>
@@ -219,11 +261,11 @@
         </div>
 
         <div class="text-gray-900 font-semibold text-center py-4 border-t-2 border-gray-600">
-<!--          místnost xxx,-->
+          <!--          místnost xxx,-->
           Fakulta podnikatelská, VUT
         </div>
 
-        </div>
+      </div>
 
     </section>
 
@@ -319,19 +361,28 @@
           <iframe
               class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
-              src="https://www.youtube.com/embed/StfEszxYTf4?si=pg0FEmB6rylxoaDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              src="https://www.youtube.com/embed/StfEszxYTf4?si=pg0FEmB6rylxoaDK" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
         </div>
         <div class="aspect-video flex-grow">
           <iframe
               class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
-              src="https://www.youtube.com/embed/b7wtcu7BN6U?si=-dii-9eorZ1Jm8K_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              src="https://www.youtube.com/embed/b7wtcu7BN6U?si=-dii-9eorZ1Jm8K_" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
         </div>
         <div class="aspect-video flex-grow">
           <iframe
               class="w-full h-full drop-shadow-2xl"
               width="560" height="315"
-              src="https://www.youtube.com/embed/AqnBwoS6Mfc?si=-mF9jULvtvzIWXfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              src="https://www.youtube.com/embed/AqnBwoS6Mfc?si=-mF9jULvtvzIWXfT" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -368,12 +419,40 @@
   }
 }
 
+
+.Card__flipper {
+  @apply block px-4 w-96;
+  perspective: 100px;
+}
+
+.Card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.Card__flipper:hover .Card__inner {
+  transform: rotateY(180deg);
+}
+
+.Card, .Card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Card__back {
+  transform: rotateY(180deg);
+}
+
 .Card {
   @apply
-  px-4
   rounded-2xl
   bg-white
-  w-full md:w-1/2 lg:w-1/4
+
   transition
   md:m-0 -my-2
 
@@ -403,8 +482,10 @@
 </style>
 
 <script setup lang="ts">
+const img = useImage()
+
 useSeoMeta({
-  title: "Mov'in Europe 2023 | ESN VUT Brno" ,
+  title: "Mov'in Europe 2023 | ESN VUT Brno",
   ogTitle: "Mov'in Europe 2023 | ESN VUT Brno",
   description: 'TAKE THE FIRST STEP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
   ogDescription: 'TAKE THE FIRST STEP! Festival zahraničních příležitostí pro studenty VUT s cestovatelskými přednáškami, informacemi od zahraničního oddělení i zkušenostmi přímo od lokálních i zahraničních studentů.',
